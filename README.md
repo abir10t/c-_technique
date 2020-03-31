@@ -1,1 +1,1 @@
-# c-_technique
+# c++ _technique
