@@ -51,3 +51,23 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
     
       link:https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/
  ##### map
+ 
+      vector<string>strs{"eat", "tea", "tan", "ate", "nat", "bat"};
+      map<string,vector<string>>mp;
+      for(auto i: strs)
+      {
+        mp[i].push_back(i);
+      }
+   
+      vector<vector<string>>s;
+      vector<string>ab;
+    
+      for(auto i: mp)  //for(auto i: mp) s.push_back(i.second); only push_back can be use by this way.
+      {
+         for(auto j:i.second)
+         {
+            ab.push_back(j);
+         }
+        s.push_back(ab);
+    }
+   
