@@ -20,7 +20,7 @@
     }
 Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
 
-## Sorting a 2d vector
+##### Sorting a 2d vector
       
     vector<vector<int>>n{{6,8,2},{9,1,0},{2,4,1},{4,7,9}};
     sort(n.begin(),n.end());
@@ -40,7 +40,7 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
       for (auto x : umap) 
       cout << x.first << " " << x.second << endl; 
       
-### access from vector
+##### access from vector
       vector<int>nums{4,1,2,1,2};
       unordered_map<int,int>u;
          for(auto i:nums)
@@ -50,3 +50,4 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
        cout<<i.second<<endl;
     
       link:https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/
+ ##### map
