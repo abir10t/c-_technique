@@ -32,4 +32,21 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
         }
         cout<<endl;
     }
+# unordered_map:
+      unordered_map<string, int> umap; 
+        umap["GeeksforGeeks"] = 10; 
+        umap["Practice"] = 20; 
+        umap["Contribute"] = 30; 
+      for (auto x : umap) 
+      cout << x.first << " " << x.second << endl; 
+      
+### access from vector
+      vector<int>nums{4,1,2,1,2};
+      unordered_map<int,int>u;
+         for(auto i:nums)
+            u[i]++;
+         
+      for(auto i: u)
+       cout<<i.second<<endl;
+    
 
