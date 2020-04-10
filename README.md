@@ -71,7 +71,13 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
         s.push_back(ab);
     }
   # set 
+  
+  ##### a value in set or not
     set<int>s{1,2,3,4}
     if(s.count(4) ==1)
       print("found")     
     
+# string 
+##### erase a particular char from string
+      string s="abcd";
+      s.erase(s.begin()+2); //abd
