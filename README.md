@@ -70,4 +70,8 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
          }
         s.push_back(ab);
     }
-   
+  ##### set 
+    set<int>s{1,2,3,4}
+    if(s.count(4) ==1)
+      print("found")     
+    
