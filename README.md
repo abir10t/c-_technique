@@ -1,5 +1,5 @@
 # Vector
-   ## for unique element :
+   ##### for unique element :
     include<bits/stdc++.h>
     using namespace std;
     int main()
@@ -50,7 +50,17 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
        cout<<i.second<<endl;
     
       link:https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/
- ##### map
+ ##### pair in vector
+     vector<pair<long,int>>du;
+     vector<int>nums={1,2,3,4};
+       for(int i=0; i<nums.size(); i++)
+       {
+           du.push_back(make_pair(nums[i],i));
+
+       }
+      
+  
+ # map
  
       vector<string>strs{"eat", "tea", "tan", "ate", "nat", "bat"};
       map<string,vector<string>>mp;
