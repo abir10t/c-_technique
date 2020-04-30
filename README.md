@@ -47,6 +47,16 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
         }
         cout<<endl;
     }
+    
+  ##### pair in vector
+     vector<pair<long,int>>du;
+     vector<int>nums={1,2,3,4};
+       for(int i=0; i<nums.size(); i++)
+       {
+           du.push_back(make_pair(nums[i],i));
+
+       }
+  ##### ........................................... --------- .............................................................
 # unordered_map:
       unordered_map<string, int> umap; 
         umap["GeeksforGeeks"] = 10; 
@@ -65,15 +75,8 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
        cout<<i.second<<endl;
     
       link:https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/
- ##### pair in vector
-     vector<pair<long,int>>du;
-     vector<int>nums={1,2,3,4};
-       for(int i=0; i<nums.size(); i++)
-       {
-           du.push_back(make_pair(nums[i],i));
 
-       }
-      
+   ##### ........................................... --------- .............................................................  
   
  # map
  
@@ -95,12 +98,15 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
          }
         s.push_back(ab);
     }
+    
+   ##### ........................................... --------- ......................................................
   # set 
   
   ##### a value in set or not
     set<int>s{1,2,3,4}
     if(s.count(4) ==1)
       print("found")     
+  ##### ........................................... --------- ......................................................
     
 # string 
 ##### erase a particular char from string
