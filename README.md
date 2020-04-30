@@ -19,6 +19,21 @@
     return 0;
     }
 Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
+##### declearing a 2d vector 
+    vector<vector<int>>m;
+    int n;
+    for(int i=1; i<=3; i++)
+    {
+        vector<int>temp;
+        for(int j=0; j<=3; j++)
+        {
+
+            cin>>n;
+            temp.push_back(n);
+        }
+        m.push_back(temp);
+    }
+    
 
 ##### Sorting a 2d vector
       
