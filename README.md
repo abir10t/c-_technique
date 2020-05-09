@@ -151,3 +151,86 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
 ##### erase a particular char from string
       string s="abcd";
       s.erase(s.begin()+2); //abd
+      print("found")
+      
+ ##### ........................................... --------- ............................................................................................................................
+ 
+ 
+ # recursion
+   ### variable bs static variable:
+   
+      #include<bits/stdc++.h>
+      using namespace std;
+      int fun(int n)
+      {
+
+          if(n>0)
+              return fun(n-1)+n;
+      }
+      int main()
+      {
+          int a=5;
+          cout<<fun(a);
+      }
+      
+### static variable:
+      #include<bits/stdc++.h>
+      using namespace std;
+      int fun(int n)
+      {
+          static int x=0;
+          if(n>0)
+          {
+                x++;
+              return fun(n-1)+x;
+          }
+      }
+      int main()
+      {
+
+          int a=5;
+          cout<<fun(a);
+      }
+here, static int x=0, creadted once,it's created loding time.and +x works returning time.so result of the function is 25.if x is global, than it also work same.
+
+### Types of recursion
+    1. Tail recursion :
+       void fun(int n)
+       {
+         if(n>0)
+         {
+           cout<<n;
+           fun(n-1)
+         }
+       }
+  recursive call and the call is the last statement.
+  
+      2. Head recursion:
+      void fun(int n)
+       {
+         if(n>0)
+         {
+           
+           fun(n-1)
+           cout<<n;
+         }
+       }
+     all things are below in recursive call.nothing can be avobe.
+     
+     3. Tree recursion:
+      #include<bits/stdc++.h>
+      using namespace std;
+      void fun(int n)
+      {
+          if(n>0)
+          {
+              cout<<n;
+              fun(n-1);
+              fun(n-1);
+          }
+      }
+      int main()
+      {
+          fun(3);
+      }
+      output : 3211211
