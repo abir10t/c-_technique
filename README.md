@@ -263,4 +263,19 @@ here, static int x=0, creadted once,it's created loding time.and +x works return
 
 OUTPUT : 20,19,9,8,4,3,1
      
-           
+      ### Nested recursion:
+         #include<bits/stdc++.h>
+         using namespace std;
+         int fun(int n)
+         {
+             if(n>100)
+                 return n-10;
+             return fun(fun(n+11));
+         }
+         int main()
+         {
+
+             cout<<fun(30);
+         }
+
+      output:91
