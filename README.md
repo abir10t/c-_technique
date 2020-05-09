@@ -218,19 +218,49 @@ here, static int x=0, creadted once,it's created loding time.and +x works return
      all things are below in recursive call.nothing can be avobe.
      
      3. Tree recursion:
-      #include<bits/stdc++.h>
-      using namespace std;
-      void fun(int n)
-      {
-          if(n>0)
-          {
-              cout<<n;
-              fun(n-1);
-              fun(n-1);
-          }
-      }
-      int main()
-      {
-          fun(3);
-      }
-      output : 3211211
+            #include<bits/stdc++.h>
+            using namespace std;
+            void fun(int n)
+            {
+                if(n>0)
+                {
+                    cout<<n;
+                    fun(n-1);
+                    fun(n-1);
+                }
+            }
+            int main()
+            {
+                fun(3);
+            }
+            output : 3211211
+            
+            
+       4. indirect recursion:
+         include<bits/stdc++.h>
+         using namespace std;
+         void funB(int n);
+         void funA(int n)
+         {
+             if( n>0 )
+             {
+                 cout<<n;
+                 funB(n-1);
+             }
+         }
+         void funB(int n)
+         {
+             if( n>1 )
+             {
+                 cout<<n;
+                 funA(n/2);
+             }
+         }
+         int main()
+         {
+             funA(20);
+         }
+
+OUTPUT : 20,19,9,8,4,3,1
+     
+           
