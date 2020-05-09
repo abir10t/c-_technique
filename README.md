@@ -48,6 +48,27 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
         cout<<endl;
     }
     
+##### sorting a 2d vector by specific position:
+      #include<bits/stdc++.h>
+      using namespace std;
+      static int cmp(vector<int>&a,vector<int>b)
+      {
+          return a[2]>b[2];
+
+      }
+      int main()
+      {
+          vector<vector<int>>v= {{1,2,3},{3,4,5},{1,1,6},{4,0,0}};
+          sort(v.begin(),v.end(),cmp);
+          for(auto i:v)
+          {
+              for(auto j:i)
+                  cout<<j<<" ";
+              cout<<endl;
+          }
+      }
+
+    
   ##### pair in vector
      vector<pair<long,int>>du;
      vector<int>nums={1,2,3,4};
@@ -279,3 +300,5 @@ OUTPUT : 20,19,9,8,4,3,1
          }
 
       output:91
+      
+      ### 
