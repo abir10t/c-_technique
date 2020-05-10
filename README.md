@@ -34,6 +34,14 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
         m.push_back(temp);
     }
     
+##### 2d vector user define size
+      int n = 3; 
+      int m = 4; 
+      vector<vector<int> > vec( n , vector<int> (m, 0));  
+      0 0 0 0 
+      0 0 0 0
+      0 0 0 0
+      
 
 ##### Sorting a 2d vector
       
