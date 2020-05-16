@@ -85,6 +85,16 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
            du.push_back(make_pair(nums[i],i));
 
        }
+       
+  ##### insert a value into speacific position:
+     vector<int>v;
+     v.insert(v.begin(),{10}); // for 1 element   v.insert(v.begin(),10)
+     cout<<v[0];
+     
+ ##### remove a element from speacific position of vector
+     vector<int> myvector{ 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+     myvector.erase(myvector.begin()+2);
+     
   ##### ........................................... --------- ............................................................................................................................
 # unordered_map:
       unordered_map<string, int> umap; 
