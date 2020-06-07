@@ -42,6 +42,11 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
       0 0 0 0
       0 0 0 0
       
+ ##### singel vector user define size
+    Create a vector of size n with 
+       all values as 10. 
+    vector<int> vect(n, 10); 
+      
 
 ##### Sorting a 2d vector
       
@@ -97,6 +102,9 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
      
 ##### max element in  vector light: 
   *max_element(light.begin(),light.end());
+  
+  
+
      
   ##### ........................................... --------- ............................................................................................................................
 # unordered_map:
