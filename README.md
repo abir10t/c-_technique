@@ -95,6 +95,9 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
      vector<int> myvector{ 1, 2, 3, 4, 5, 6, 7, 8, 9 };
      myvector.erase(myvector.begin()+2);
      
+##### max element in  vector light: 
+  *max_element(light.begin(),light.end());
+     
   ##### ........................................... --------- ............................................................................................................................
 # unordered_map:
       unordered_map<string, int> umap; 
