@@ -202,6 +202,10 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
       string s="abcd";
       s.erase(s.begin()+2); //abd
       print("found")
+##### string to int :
+      string a ="1234";
+      int x = stoi(a);
+      cout<<x;
       
  ##### ........................................... --------- ............................................................................................................................
  
