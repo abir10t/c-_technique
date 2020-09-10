@@ -211,7 +211,7 @@ Link:https://www.geeksforgeeks.org/lambda-expression-in-c/
  
  
  # recursion
-   ### variable bs static variable:
+   ### variable vs static variable:
    
       #include<bits/stdc++.h>
       using namespace std;
